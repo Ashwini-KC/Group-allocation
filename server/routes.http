@@ -1,0 +1,301 @@
+### To create an account
+POST http://localhost:4000/register
+Content-Type:  application/json
+
+{
+    "name": "Kavya Mysore Prakash",
+    "email": "kp16@student.le.ac.uk",
+    "password": "abc@123",
+    "department": "Computer Science",
+    "course": "Advanced Computer Science",
+    "role": "Student",
+    "verified": true
+}
+
+
+
+
+### To login as admin
+POST http://localhost:4000/login
+Content-Type:  application/json
+
+{
+    "email": "ashwini@le.ac.uk",
+    "password": "admin@123"
+}
+
+
+
+### To login
+POST http://localhost:4000/login
+Content-Type:  application/json
+
+{
+    "email": "akc1",
+    "password": "abc@123"
+}
+
+
+
+
+### To verify the access token
+GET http://localhost:4000/token/verify
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFrYzE3QHN0dWRlbnQubGUuYWMudWsiLCJyb2xlIjoiU3R1ZGVudCIsInZlcmZpZWQiOnRydWUsImlhdCI6MTY5MzE2NTI5MX0.eEY2YUy6312VoPEaH9-ylAYldxxLkqo-EWjpE0ztrHY
+
+
+
+
+###TOPICS
+
+
+
+
+### To Post topics
+POST http://localhost:4000/topics
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcnNoaXRoQHN1cGVydmlzb3IubGUuYWMudWsiLCJyb2xlIjoiU3VwZXJ2aXNvciIsImlhdCI6MTY5MDgwNjM3Nn0.N2yoI2Fxf11Jijj13Tn_dCMRHdugof3b3TogTYyuTOk
+
+{
+    "title": "Opinion Mining in Social Media21121",
+    "description": "This is a Opinion Mining Topic"
+}
+
+
+
+### To View topics
+GET http://localhost:4000/topics
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcnNoaXRoQHN1cGVydmlzb3IubGUuYWMudWsiLCJyb2xlIjoiU3VwZXJ2aXNvciIsImlhdCI6MTY5MDgwNjM3Nn0.N2yoI2Fxf11Jijj13Tn_dCMRHdugof3b3TogTYyuTOk
+
+
+
+
+### To View topics by ID
+GET http://localhost:4000/topics/14
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcnNoaXRoQHN1cGVydmlzb3IubGUuYWMudWsiLCJyb2xlIjoiU3VwZXJ2aXNvciIsImlhdCI6MTY5MDgwNjM3Nn0.N2yoI2Fxf11Jijj13Tn_dCMRHdugof3b3TogTYyuTOk
+
+
+
+### To Delete topics
+DELETE  http://localhost:4000/topics/16
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTA1NTc2MjZ9.xVBpWbFpxcwbHV6F3uUkFbjxVFP6cmxcIMgBRCPi9jA
+
+
+
+### To Edit/Update topics
+PUT http://localhost:4000/topics/62
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcnNoaXRoQHN1cGVydmlzb3IubGUuYWMudWsiLCJyb2xlIjoiU3VwZXJ2aXNvciIsImlhdCI6MTY5MDgwNjM3Nn0.N2yoI2Fxf11Jijj13Tn_dCMRHdugof3b3TogTYyuTOk
+
+ {
+    "title":"     ",
+    "description": "     "
+ }
+
+
+
+### To Post Preferences
+POST http://localhost:4000/preferences
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaWZAc3R1ZGVudC5sZS5hYy51ayIsInJvbGUiOiJTdHVkZW50IiwiaWF0IjoxNjkwOTA0OTk1fQ.3Zu67zvuzvNI0YbtXbW86dl_4lfDkKFIe_Siif2u2ak
+
+{
+    "first":13,
+    "second":14,
+    "third":20,
+    "fourth":21
+}
+
+
+
+### To get preferences for Specific user
+GET http://localhost:4000/preferences?userEmail=yuki@student.le.ac.uk
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTI0NDQwMjd9._nwJB4-XFkQ-zaqNfRSN4_ijcNSGsDj-A6TOQnlRMrw
+
+
+
+
+### To get preferences for all Users
+GET http://localhost:4000/preferences
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTI0NDMxNjh9.P-gmu0ZxWbvAjG4IxVQpC1LzeHlIBzB6QqLNlPDUCD8
+
+
+
+
+###Students and Supervsiors data 
+
+### To get Students
+GET http://localhost:4000/viewStudents
+Content-Type: application/json
+
+{
+    "role" : "Student"
+}
+
+
+###To Search Students
+GET http://localhost:4000/user/searchStudents?name=Abigail
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTI3MDcwNzF9.S3Z77lYAEzt2rCysHQrodFY6oJ0JxKDQNK4GZWMbOBc
+
+
+###To Search Supervisors
+GET http://localhost:4000/user/searchSupervisors?name=Atlas
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTI3MDcwNzF9.S3Z77lYAEzt2rCysHQrodFY6oJ0JxKDQNK4GZWMbOBc
+
+
+### To search Topics by title
+GET http://localhost:4000/topics/searchTopics?title=Artificial
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNlbGVuZUBsZWljZXN0ZXIuYWMudWsiLCJyb2xlIjoiU3VwZXJ2aXNvciIsImlhdCI6MTY5Mjk2NzE0N30.Ihq5gaKWP95fW00LpQS8xLf7k16rVJdRO9Dw4YAjwAY
+
+### To get Supervisors
+GET http://localhost:4000/viewSupervisors
+Content-Type: application/json
+
+{
+    "role" : "Supervisor"
+}
+
+### To delete Students
+DELETE http://localhost:4000/deleteStudents
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTIyODYxMDN9.MCI230LwziTYxXW0a5XdKMTGNtVXWQTlc6P9BaVl7Y8
+
+{
+     "email": "sophia@student.le.ac.uk"
+}
+
+
+### To delete Supervisors
+DELETE http://localhost:4000/deleteSupervisors
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTIyODYxMDN9.MCI230LwziTYxXW0a5XdKMTGNtVXWQTlc6P9BaVl7Y8
+
+{
+     "email": "stanley@supervisor.le.ac.uk"
+}
+
+
+### To Update Students
+PUT http://localhost:4000/updateStudents
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmkxQGxlLmFjLnVrIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjkxNTA3ODg3fQ.U2jdNob1VAk0MAWJOQMbbUlWgv1k3xsnAGGlJuQ-FjU
+
+{
+      "name" : "Ash",
+      "email" : "akc17@student.le.ac.uk",
+      "department": "Data Science",
+      "course": "Advanced Computer Science"
+    
+}
+
+### To update Supervisors
+PUT http://localhost:4000/user
+Content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmkxQGxlLmFjLnVrIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjkxODU4ODMxfQ.JT4k_eipAJBNi1Mwo5YASCnaEOrN6X3bluHOhREhNQo
+
+{
+    "name" : "Amaryllis Valery",
+    "email": "amaryllis@leicester.ac.uk",
+    "department" : "Computer Science"
+}
+
+
+###Groups
+
+###  To Allocate groups
+post http://localhost:4000/allocate
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJ2ZXJmaWVkIjp0cnVlLCJpYXQiOjE2OTMxNjU4Nzh9.YSUwEqLEjB4dJM46FnMf1vQiIn8LbdeTuEmjqNKjot4
+
+{
+    "groupSize": 5
+}
+
+### To get groups
+GET http://localhost:4000/groups
+
+
+
+### To get group corresponding to the student
+GET http://localhost:4000/groups/student
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inl1a2lAc3R1ZGVudC5sZS5hYy51ayIsInJvbGUiOiJTdHVkZW50IiwiaWF0IjoxNjkyOTAyMTc0fQ.dsdXErrB2ndHtMm_hp4F8FUKqraWpeJhGrN6-6IOUIA
+
+
+### To get groups corresponding to supervisor
+GET http://localhost:4000/groups/supervisor
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNlbGVuZUBsZWljZXN0ZXIuYWMudWsiLCJyb2xlIjoiU3VwZXJ2aXNvciIsImlhdCI6MTY5Mjk2NzE4M30.nrhdI0TAGRfKf3hoYH0lvMNAtYTeq3ml5l6Slavwlb4
+
+
+### To delete groups
+DELETE http://localhost:4000/groups
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJ2ZXJmaWVkIjp0cnVlLCJpYXQiOjE2OTMxNjU4Nzh9.YSUwEqLEjB4dJM46FnMf1vQiIn8LbdeTuEmjqNKjot4
+
+
+
+
+###Announcements
+
+### To Post Announcements
+POST http://localhost:4000/announcement
+Content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTI3OTAzMTZ9.PEvSqxK2TMTV7TVy9-VQ2cNzI-iihEPsBjjXeJlcTTk
+
+{
+    "subject" : "Deadline extension",
+    "details" : "The last date to submit preferences have been extended"
+}
+
+### To get Announcements
+GET http://localhost:4000/announcement
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTI3OTAzMTZ9.PEvSqxK2TMTV7TVy9-VQ2cNzI-iihEPsBjjXeJlcTTk
+
+### To delete Announcements
+DELETE http://localhost:4000/announcement/5
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzaHdpbmlAbGUuYWMudWsiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2OTI4MTYxNDV9.c9uulSyfcnTGwvEQs6DywuNtfs8WwAEcLGY7ALEawhA
+
+### To Edit Announcements
+PUT http://localhost:4000/announcement/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inl1a2lAc3R1ZGVudC5sZS5hYy51ayIsInJvbGUiOiJTdHVkZW50IiwiaWF0IjoxNjkyNzkzOTAxfQ.8VZZLGA85Pl9Mj7zlHC1JEQrFsKxQvHxCEkwl-SSQPc
+
+{
+    "subject":"Groups are modified",
+    "details" : "Groups have been modified for Personal Group Skills Module"
+}
+
+
+###
+POST http://localhost:4000/verify/user
+Content-Type: application/json
+
+{
+    "token": "d0355c60acd24fb5bea1f92e8494f71b246a74e7",
+    "userEmail": "bsp7@student.le.ac.uk"
+}
+
+
+###
+POST http://localhost:4000/notify
+Content-Type: application/json
+
+### Forgot password
+POST http://localhost:4000/forgot-password
+Content-Type: application/json
+
+{
+    "email":"akc17@student.le.ac.uk"
+}
+
+###
+POST http://localhost:4000/reset-password
+Content-Type: application/json
+
+{
+    "token": "Some Token",
+    "userEmail": "Sample",
+    "password": "Sample pass"
+}

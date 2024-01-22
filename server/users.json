@@ -1,0 +1,661 @@
+{
+    "users": [
+        {
+            "name": "Emily Johnson",
+            "email": "Emily@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Samuel Williams",
+            "email": "samuel@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Sophia Jones",
+            "email": "sophia@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Alexander Davis",
+            "email": "alexander@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Ava Miller",
+            "email": "ava@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Mia Anderson",
+            "email": "mia@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Jacob Taylor",
+            "email": "jacob@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Grace Thompson",
+            "email": "grace@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Ethan Jackson",
+            "email": "ethan@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Lily Martinez",
+            "email": "lily@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Caleb Walker",
+            "email": "caleb@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Chloe White",
+            "email": "chloe@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Noah Lewis",
+            "email": "noah@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Isabella Harris",
+            "email": "isabella@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Aiden Clark",
+            "email": "aiden@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Harper Scott",
+            "email": "harper@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Daniel King",
+            "email": "daniel@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Amelia Green",
+            "email": "amelia@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Liam Baker",
+            "email": "liam@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Oliver Wright",
+            "email": "oliver@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "William Hill",
+            "email": "william@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Olivia Brown",
+            "email": "olivia@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Ella Young",
+            "email": "ella@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "James Rodriguez",
+            "email": "james@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Sophia Carter",
+            "email": "sophia@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        }, {
+            "name": "Benjamin Foster",
+            "email": "benjamin@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Lucas Moore",
+            "email": "lucas@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Abigail Bennett",
+            "email": "abigail@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Charlotte Bailey",
+            "email": "charlotte@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Grace Reed",
+            "email": "grace@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Mason Rivera",
+            "email": "mason@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Elijah Ward",
+            "email": "elijah@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Emily Cooper",
+            "email": "emily@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Logan Collins",
+            "email": "logan@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Henry Murphy",
+            "email": "henry@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Emma Turner",
+            "email": "emma@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },{
+            "name": "Liam Baker",
+            "email": "liam@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },{
+            "name": "Lyra Sterling",
+            "email": "lyra@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },{
+            "name": "Thorne Blackwood",
+            "email": "throne@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },{
+            "name": "Isolde Wren",
+            "email": "isolde@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },{
+            "name": "Elysia Vale",
+            "email": "elysia@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },{
+            "name": "Seren Elmsworth",
+            "email": "seren@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },{
+            "name": "Aria Thornfield",
+            "email": "aria@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },{
+            "name": "Caius Ashford",
+            "email": "caius@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "course": "Advanced Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Elowen Rainier",
+            "email": "elowen@leicester.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Supervisor",
+            "verified": true
+
+        }, {
+            "name": "Caius Ashford",
+            "email": "caius@leicester.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Supervisor",
+            "verified": true
+
+        }, {
+            "name": "Orion Winter",
+            "email": "orion@leicester.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Supervisor",
+            "verified": true
+
+        }, {
+            "name": "Selene Ravenscroft",
+            "email": "selene@leicester.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Supervisor",
+            "verified": true
+
+        }, {
+            "name": "Atlas Kingsley",
+            "email": "atlas@leicester.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Supervisor",
+            "verified": true
+
+        }, {
+            "name": "Lucian Whitaker",
+            "email": "lucian@leicester.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Supervisor",
+            "verified": true
+
+        }, {
+            "name": "Thalia Merrick",
+            "email": "thalia@leicester.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Supervisor",
+            "verified": true
+
+        }, {
+            "name": "Zephyrine Sterling",
+            "email": "zephyrine@leicester.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Supervisor",
+            "verified": true
+
+        }, {
+            "name": "Amaryllis Vale",
+            "email": "amaryllis@leicester.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Supervisor",
+            "verified": true
+        },
+        {
+            "name": "Scarlett Davis",
+            "email": "scarlett@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Christopher Johnson",
+            "email": "christopher@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Jiyoung Park",
+            "email": "jiyoung@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Kazuki Suzuki",
+            "email": "kazuki@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Yuki Tanaka",
+            "email": "yuki@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Hiroshi Nakamura",
+            "email": "hiroshi@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Mei Chen",
+            "email": "mei@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Ryan Mitchell",
+            "email": "ryan@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Leah Cox",
+            "email": "leah@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Zoey King",
+            "email": "zoey@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Grace Fisher",
+            "email": "grace@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Ying Wang",
+            "email": "ying@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Haruki Takahashi",
+            "email": "Haruki@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Wei Chen",
+            "email": "wei@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Yui Suzuki",
+            "email": "yui@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Akiko Sato",
+            "email": "akiko@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Sana Malik",
+            "email": "sana@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Aisha Ahmed",
+            "email": "aisha@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Ryu Nakamura",
+            "email": "ryu@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Aarav Kumar",
+            "email": "aarav@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Jihoon Kim",
+            "email": "jihoon@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Leila Khan",
+            "email": "leila@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Meera Verma",
+            "email": "meera@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Pooja Sharma",
+            "email": "pooja@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Hana Yamamoto",
+            "email": "hana@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Amit Patel",
+            "email": "amit@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        },
+        {
+            "name": "Nisha Gupta",
+            "email": "nisha@student.le.ac.uk",
+            "password": "abc@123",
+            "department": "Computer Science",
+            "role": "Student",
+            "verified": true
+        }
+
+
+        
+    ]
+}

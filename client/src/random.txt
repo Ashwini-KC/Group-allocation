@@ -1,0 +1,112 @@
+ {/* <form className="register-form" onSubmit={handleSubmit}>
+                 <label>Full Name</label>
+                 <input value={name} name="name"  placeholder="Full name" id="name" /> 
+                 <label htmlFor="email">Email</label>
+                 <input value={email} onChange={(e)=>setEmail(e.target.value)}  type="email" placeholder="Email Address" id="email" name="email"/>
+                
+                 <label for="password">Password</label>
+                 <input value={password} onChange={(e)=>setPassword(e.target.value)} type="password" placeholder="*******" id="password" name="password"/>
+                
+                 <button type="submit">Register</button>
+            </form>
+           <button className="link-btn" onClick={()=>props.onFormSwitch('login')}> Already Registered? Login  </button>
+        </div> */}
+
+
+
+
+ //   <Form onSubmit={handleSubmit}>
+      // <Form.Group className="form-outline mb-3  " controlId="FullName.ControlInput">
+      //   <Form.Label>Full Name</Form.Label>
+      //   <Form.Control type="text" class="row d-flex justify-content-center align-items-center h-100" name="name" onChange={(e) => setName(e.target.value)} placeholder="Enter your Full Name" />
+      // </Form.Group>
+      // <Form.Group className="mb-3" controlId="Email.ControlInput">
+      //   <Form.Label>Email address</Form.Label>
+      //   <Form.Control type="email" onChange={(e)=>setEmail(e.target.value)}  placeholder="Enter your Email Address" />
+      // </Form.Group>
+      // <Form.Group className="mb-3" controlId="Password.ControlInput">
+      //   <Form.Label>Password</Form.Label>
+      //   <Form.Control type="password" onChange={(e)=>setPassword(e.target.value)} placeholder="Enter your Password" />
+      // </Form.Group>
+
+      // <div>
+      //   <select className="custom-select" onChange={(e)=>{
+      //     const selectRole=e.target.value;
+      //     setRole(selectRole)
+      //   }}>
+      //     <option value= "Supervisor">Supervisor</option>  
+      //     <option value="Student">Student</option>
+      //   </select>
+      // </div>
+      
+      {/* <div class="form-check mb-3">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+    </label>
+    </div> */}
+    
+    //     <div class="d-flex justify-content-center">
+    //     <Button class="btn-btn-primary" type="submit">Register</Button>
+    //     </div>
+    // </Form>
+
+    // <Form onSubmit={handleSubmit}>
+    // <form action="/register.jsx">
+    //   <div class="mb-3 mt-3">
+    //     <label for="name" class="form-label">Full Name</label>
+    //        <input type="text" name="name" onChange={(e) => setName(e.target.value)} placeholder="Enter your Full Name" />
+    //     </div>
+
+    //     <div class="mb-3">
+    //       <label for="email" class="form-label">Email Address</label>
+    //         <input type="email" name="email" onChange={(e) => setEmail(e.target.value)} placeholder="Enter your Email Address" />
+    //     </div>
+
+    //     <div class="mb-3">
+    //      <label for="password" class="form-label">Password</label>
+    //       <input type="password" name="password" onChange={(e) => setPassword(e.target.value)} placeholder="Enter your Password" />
+    //   </div>
+
+
+    //   <div>
+    //      <select className="custom-select" onChange={(e)=>{
+    //        const selectRole=e.target.value;
+    //        setRole(selectRole)
+    //      }}>
+    //        <option value= "Supervisor">Supervisor</option>  
+    //        <option value="Student">Student</option>
+    //      </select>
+    //    </div>
+
+    //   <div class="form-check mb-3">
+    //     <label class="form-check-label">
+    //       <input class="form-check-input" type="checkbox" name="remember"/> Remember me </label>
+    //   </div>
+
+    //   <div class="d-flex justify-content-center">
+    //     <Button class="btn-btn-primary" type="submit">Register</Button>
+    //    </div>
+    // </form>
+
+    // </Form>
+
+
+
+
+  //     <Form onSubmit={handleSubmit}>
+  //   <Form.Group className="mb-3" controlId="Email.ControlInput">
+  //     <Form.Label>Email address</Form.Label>
+  //     <Form.Control type="email"onChange={(e)=>setEmail(e.target.value)}  placeholder="Enter your Email Address" />
+  //   </Form.Group>
+  //   <Form.Group className="mb-3" controlId="Password.ControlInput">
+  //     <Form.Label>Password</Form.Label>
+  //     <Form.Control type="password" onChange={(e)=>setPassword(e.target.value)} placeholder="Enter your Password" />
+  //   </Form.Group>
+  //   <Form.Group as={Row} className="mb-3">
+  //       <Col sm={{ span: 10, offset: 2 }}>
+  //         <Button type="submit">Sign in</Button>
+  //       </Col>
+  //     </Form.Group>
+   
+  // </Form>
+ 
