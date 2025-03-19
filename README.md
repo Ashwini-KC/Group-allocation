@@ -1,3 +1,3 @@
 ## Group Allocation
 
-[Know More](https://github.com/SAshwini-KC/Group-allocation/blob/master/Report.pdf)
+[Know More](https://github.com/Ashwini-KC/Group-allocation/blob/master/Report.pdf)
